@@ -1,4 +1,4 @@
-const readTasks = require('../storage/readTasks'); // Import the readTasks function to read tasks from storage
+import readTasks from '../storage/readTasks'; // Import the readTasks function to read tasks from storage
 
 function createTask(description, dueDate) {
     if (!description || typeof description !== 'string') {
@@ -34,4 +34,4 @@ function createTask(description, dueDate) {
     };
 }
 
-module.exports = createTask; 
+export default createTask; 

@@ -1,10 +1,8 @@
-const path = require('path');
+import { join } from 'path';
 
 const configDirPath = __dirname;
-const absolutePathToTaskJson = path.join(configDirPath, '..', 'data', 'tasks.json');
+const absolutePathToTaskJson = join(configDirPath, '..', 'data', 'tasks.json');
 
-module.exports = {
-  TASK_FILE_PATH: absolutePathToTaskJson,
-};
+export const TASK_FILE_PATH = absolutePathToTaskJson;
 
 // console.log(absolutePathToTasksJson);

@@ -41,4 +41,5 @@ async function runPersistenceTests() {
 }
 
 // Chama a função de teste para executar.
+
 runPersistenceTests();

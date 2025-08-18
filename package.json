@@ -1,0 +1,21 @@
+{
+  "name": "task-tracker-cli",
+  "version": "1.0.0",
+  "description": "Task tracker is a project used to track and manage your tasks.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LayzaK/Task-Tracker-CLI.git"
+  },
+  "keywords": [],
+  "author": "Layza K.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LayzaK/Task-Tracker-CLI/issues"
+  },
+  "homepage": "https://github.com/LayzaK/Task-Tracker-CLI#readme"
+}

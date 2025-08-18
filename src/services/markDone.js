@@ -1,4 +1,4 @@
-import { loadTasks, saveTasks } from "./persistenceUtils";
+import { loadTasks, saveTasks } from "./persistenceUtils.js";
 
 export async function markDone(taskId) {
     try {

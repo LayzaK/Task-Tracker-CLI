@@ -1,4 +1,4 @@
-import { loadTasks } from "./persistenceUtils";
+import { loadTasks } from "./persistenceUtils.js";
 
 export async function listTasks() {
 
@@ -10,9 +10,9 @@ export async function listTasks() {
         }
 
         console.log("\n--- Current tasks: ---");
-        tasks.array.forEach(element => {
-            const status = element.completed ? "✓" : "✗";
-            console.log(`ID: ${element.id}, Description: ${element.description}, Completed: ${status}`);
+        tasks.forEach(task => {
+            const status = task.completed ? "✓" : "✗";
+            console.log(`ID: ${task.id}, Description: ${task.description}, Completed: ${status}`);
         });
         console.log("-----------------------");
         

@@ -32,42 +32,23 @@ To run this application, you need to have **Node.js** installed on your machine.
 You can check if Node.js is already installed by opening your terminal or command prompt and running:
 
 ```bash
+
 node -v
 If Node.js is not installed, you can download it from the official website.
-
+````
 2. Installation and Execution
 2.1 Clone the repository
-bash
+```bash
 Copy
 Edit
-git clone [insert your repository URL here]
+git clone [https://github.com/LayzaK/Task-Tracker-CLI]
+```
 2.2 Navigate to the project directory
-bash
-Copy
-Edit
+```bash
 cd Task-Tracker-CLI
+```
 2.3 Run the commands
-You can now start using the application. For example, to add a new task:
-
-bash
-Copy
-Edit
-node cli.js add "My first task"
-Notes
-Replace [insert your repository URL here] with the actual link to your project on GitHub.
-
-After updating the README, follow the steps below to save the changes:
-
-bash
-Copy
-Edit
-git add README.md
-git commit -m "docs: add README instructions"
-git push origin main
-yaml
-Copy
-Edit
-
+You can now start using the application. 
 
 
 ## Main Goal ##

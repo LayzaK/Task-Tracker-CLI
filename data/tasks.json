@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": 2,
+    "description": "Build CLI tool",
+    "completed": false
+  },
+  {
+    "id": 3,
+    "description": "buy cat food",
+    "completed": true
+  }
+]

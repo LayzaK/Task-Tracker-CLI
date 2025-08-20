@@ -32,5 +32,9 @@ function readTasks() {
     }
 }
 
+<<<<<<< HEAD
+export default readTasks; // Export the readTasks function for use in other modules
+=======
 module.exports = readTasks; // Export the readTasks function for use in other modules
+>>>>>>> 030bd3a89eef0f6ca8b16ae27604067316d3d92a
 // This module provides a function to read tasks from a JSON file.

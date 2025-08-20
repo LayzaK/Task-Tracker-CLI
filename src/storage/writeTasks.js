@@ -6,7 +6,11 @@ const { TASK_FILE_PATH } = require('../../config/path'); // (2) Import the task 
  * Function to write an array of tasks to the JSON file.
  * @param {Array} tasks - The array of tasks to be saved.
  */
+<<<<<<< HEAD
+async function writeTasks(tasks) { // (3) Define the writeTasks function, which receives an array of 'tasks'
+=======
 function writeTasks(tasks) { // (3) Define the writeTasks function, which receives an array of 'tasks'
+>>>>>>> 030bd3a89eef0f6ca8b16ae27604067316d3d92a
     try { // (4) Try block: Attempts to execute the code below
         // (5) Converts the JavaScript array/object 'tasks' to a JSON string
         // The 'null, 2' formats the JSON with 2-space indentation for readability
@@ -20,5 +24,9 @@ function writeTasks(tasks) { // (3) Define the writeTasks function, which receiv
     }
 }
 
+<<<<<<< HEAD
+export default writeTasks; // (9) Exports the writeTasks function as default
+=======
 module.exports = writeTasks; // (9) Exports the writeTasks function
+>>>>>>> 030bd3a89eef0f6ca8b16ae27604067316d3d92a
 // This module provides a function to write tasks to a JSON file.

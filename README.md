@@ -1,5 +1,6 @@
 # Task-Tracker
 The Task-Tracker is a straightforward command-line tool designed to help you manage and keep tabs on your tasks. It's perfect for anyone looking for a light and direct way to organize their daily routine!
+inspired by: https://roadmap.sh/projects/task-tracker
 
 ## How does it work? ## 
 This application is built with **Node.js** and operates via commands in your terminal. It uses a `tasks.json` file to store all your tasks, ensuring they persist even after you close the terminal.
